@@ -1,0 +1,14 @@
+<div class="wrap">
+<mat-card>
+      <!-- Calling GoogleAuth Api from AuthService -->
+      <mat-card-title>Welcome To Pencil</mat-card-title>
+      <mat-card-content>
+      <div class="google-btn" (click)="authService.GoogleAuth()">
+        <div class="google-icon-wrapper">
+          <img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
+        </div>
+        <p class="btn-text"><b>Login With Google Account</b></p>
+      </div>
+    </mat-card-content>
+    </mat-card>
+  </div>

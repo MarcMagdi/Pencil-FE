@@ -1,0 +1,14 @@
+//Remove blue outline in Chrome
+div:focus {outline:0;}
+
+.text-editor {
+  width: 80%;
+  min-height: 85vh;
+  margin: 50px
+}
+.medium-editor-placeholder:after {
+  margin: 0 !important;
+}
+.spinner {
+  margin: auto
+}
